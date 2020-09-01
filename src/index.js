@@ -1,12 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import 'bootstrap/dist/css/bootstrap.css';
+// Put any other imports below so that CSS from your
+// components takes precedence over default styles.
 import './index.css';
 import * as serviceWorker from './serviceWorker';
 import Material from "./admin/components/Material";
+import DeliveryDetails from './site/components/delivery-details';
 
 ReactDOM.render(
   <React.StrictMode>
-      <Material />
+      <DeliveryDetails />
   </React.StrictMode>,
   document.getElementById('root')
 );
