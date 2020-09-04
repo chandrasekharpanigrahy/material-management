@@ -5,7 +5,6 @@ import 'bootstrap/dist/css/bootstrap.css';
 // components takes precedence over default styles.
 import './index.css';
 import * as serviceWorker from './serviceWorker';
-import Material from "./admin/components/Material";
 import DeliveryDetails from './site/components/delivery-details';
 
 ReactDOM.render(
